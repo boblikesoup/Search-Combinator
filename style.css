@@ -1,0 +1,67 @@
+#userSentence {
+  height: 100px;
+  width: 650px;
+
+}
+
+.categoryTitle {
+  height: 100px;
+  width: 650px;
+}
+
+.categoryTextArea {
+  height: 100px;
+  width: 650px;
+}
+
+#combineButton {
+  visibility: hidden;
+}
+
+#categoriesDirections {
+  visibility: hidden;
+}
+
+.myButton {
+  -moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+  box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #39b6e3) );
+  background:-moz-linear-gradient( center top, #79bbff 5%, #39b6e3 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#39b6e3');
+  background-color:#79bbff;
+  -webkit-border-top-left-radius:0px;
+  -moz-border-radius-topleft:0px;
+  border-top-left-radius:0px;
+  -webkit-border-top-right-radius:0px;
+  -moz-border-radius-topright:0px;
+  border-top-right-radius:0px;
+  -webkit-border-bottom-right-radius:0px;
+  -moz-border-radius-bottomright:0px;
+  border-bottom-right-radius:0px;
+  -webkit-border-bottom-left-radius:0px;
+  -moz-border-radius-bottomleft:0px;
+  border-bottom-left-radius:0px;
+  text-indent:0;
+  border:1px solid #84bbf3;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  font-style:normal;
+  height:40px;
+  line-height:40px;
+  width:100px;
+  text-decoration:none;
+  text-align:center;
+  text-shadow:1px 1px 0px #528ecc;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+/*dark blue: #1273a6;*/
+/*light blue: #b6d7e0;*/
+/*green buttons: #5db72c;*/

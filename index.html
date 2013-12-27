@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Search Combinator</title>
+ <link href='style.css' rel='stylesheet' type='text/css'>
+<script src="app.js"></script>
+<script src="jquery.js"></script>
+  <meta name="viewport" content="initial-scale = 1.0">
+</head>
+<body>
+<img src="logo.jpg" alt="logo"></br>
+</br>
+<h1>Search Combinator</h1>
+Write the sentence you would like to create with a pair of brackets around a variable category name in each location you would like to input variables.</br>
+</br>
+Example: "Above Grade Level [delivery method] quality tutoring assistance with some of the best [subject] tutors in [location]."</br>
+<textarea name="sentence" id="userSentence"></textarea><br>
+<button onclick="determineCategories()" id="submitButton" class="myButton">Submit</button></br>
+</br>
+
+<div id="categoriesDirections">Write each phrase you would like a combination of on a new line below.  You may drag the bottom right of the boxes to resize.  Re-click the button below if results are scewed after first click</div>
+<div id="putArea"></div></br>
+
+<button onclick="combinationsController()" id="combineButton" class="myButton">Create Combinations</button></br>
+</br>
+
+<div id="outputArea"></div>
+
+
+
+
+</body>
+</html>
+
